@@ -1,0 +1,12 @@
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\obj\Debug\quinieleros.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\quinieleros.dll
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\quinieleros.pdb
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\quinieleros.models.dll
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\quinieleros.models.pdb
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\obj\Debug\quinieleros.dll
+C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros\obj\Debug\quinieleros.pdb
