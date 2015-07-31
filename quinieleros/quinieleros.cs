@@ -6,7 +6,7 @@ namespace quinieleros
 {
 	public class App : Application
 	{
-		NavigationPage _NavPage;
+		Menu _NavPage;
 
 		public App ()
 		{
@@ -16,7 +16,7 @@ namespace quinieleros
 		{
 			var menu = new Menu();
 
-			_NavPage = new NavigationPage(menu);
+			_NavPage = new Menu();
 
 			return _NavPage;
 		}

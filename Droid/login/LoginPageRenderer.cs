@@ -6,7 +6,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
 
-[assembly: ExportRenderer (typeof (LoginPage), typeof (LoginPageRenderer))]
+//[assembly: ExportRenderer (typeof (LoginPage), typeof (LoginPageRenderer))]
 namespace quinieleros.Droid
 {
 	public class LoginPageRenderer : PageRenderer

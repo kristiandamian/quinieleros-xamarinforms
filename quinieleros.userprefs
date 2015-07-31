@@ -1,29 +1,13 @@
 ﻿<Properties StartupItem="iOS\quinieleros.iOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="quinieleros\quinieleros.cs">
     <Files>
-      <File FileName="quinieleros\quinieleros.cs" Line="9" Column="27" />
-      <File FileName="Droid\login\LoginPageRenderer.cs" Line="28" Column="4" />
-      <File FileName="quinieleros\Login\OAuthSettings.cs" Line="16" Column="9" />
-      <File FileName="quinieleros\Login\Login.cs" Line="42" Column="33" />
-      <File FileName="quinieleros\Pages\MenuPage.cs" Line="14" Column="24" />
-      <File FileName="quinieleros\Pages\Menu\Menu.cs" Line="15" Column="5" />
-      <File FileName="quinieleros\Pages\InicioPage.cs" Line="32" Column="31" />
-      <File FileName="Droid\MainActivity.cs" Line="22" Column="45" />
+      <File FileName="quinieleros\quinieleros.cs" Line="4" Column="1" />
+      <File FileName="quinieleros\Pages\Menu\Menu.cs" Line="1" Column="1" />
+      <File FileName="quinieleros\Pages\Menu\MenuListData.cs" Line="1" Column="1" />
+      <File FileName="quinieleros\Pages\Menu\MenuListView.cs" Line="1" Column="1" />
+      <File FileName="quinieleros\Pages\MenuPage.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="quinieleros" expanded="True">
-            <Node name="quinieleros" selected="True" />
-            <Node name="quinieleros.Droid" expanded="True" />
-            <Node name="quinieleros.models" expanded="True">
-              <Node name="Properties" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
