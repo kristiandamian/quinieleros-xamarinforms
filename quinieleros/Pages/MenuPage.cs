@@ -10,17 +10,16 @@ namespace quinieleros
 
 		public MenuPage ()
 		{
-			Icon = "settings.png";
+			Icon = "menu";
 			Title = "Quinieleros"; // The Title property must be set.
-			BackgroundColor = Color.FromHex ("333333");
+			//BackgroundColor = Color.FromHex ("33b5e5");
 
 			Menu = new MenuListView ();
 
 			var menuLabel = new ContentView {
 				Padding = new Thickness (10, 36, 0, 5),
 				Content = new Label {
-					TextColor = Color.FromHex ("AAAAAA"),
-					Text = "MENU", 
+					TextColor = Color.White,
 				}
 			};
 

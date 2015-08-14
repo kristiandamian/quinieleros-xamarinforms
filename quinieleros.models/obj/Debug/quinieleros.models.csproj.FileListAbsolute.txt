@@ -1,4 +1,0 @@
-C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros.models\bin\Debug\quinieleros.models.dll
-C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros.models\bin\Debug\quinieleros.models.pdb
-C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros.models\obj\Debug\quinieleros.models.dll
-C:\Users\Usuario\Documents\Projects\quinieleros\quinieleros\quinieleros.models\obj\Debug\quinieleros.models.pdb

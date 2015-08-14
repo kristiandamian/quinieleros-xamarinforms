@@ -10,9 +10,9 @@ namespace quinieleros
 		{
 			base.OnAppearing ();
 
-			if (!Login.IsLoggedIn) {
+			/*if (!Login.IsLoggedIn) {
 				Navigation.PushModalAsync(new InicioPage());
-			}
+			}*/
 		}
 		public Menu ()
 		{

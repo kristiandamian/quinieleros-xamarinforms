@@ -46,6 +46,9 @@
     <Compile Include="Pages\VerGrupoPage.cs" />
     <Compile Include="Pages\EstadisticasPage.cs" />
     <Compile Include="Pages\InicioPage.cs" />
+    <Compile Include="views\Resultados.xaml.cs">
+      <DependentUpon>Resultados.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.4.2.6359\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.2.6359\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
@@ -54,12 +57,7 @@
     <Folder Include="Pages\" />
     <Folder Include="Login\" />
     <Folder Include="Pages\Menu\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\quinieleros.models\quinieleros.models.csproj">
-      <Project>{7A0EC1EF-6300-47C9-B49A-69A3D32FBDF9}</Project>
-      <Name>quinieleros.models</Name>
-    </ProjectReference>
+    <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -74,5 +72,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\quinieleros.BO\quinieleros.Models\quinieleros.Models.csproj">
+      <Project>{91582DF2-1ED9-46B9-84EA-400E8DB39034}</Project>
+      <Name>quinieleros.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="views\Resultados.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

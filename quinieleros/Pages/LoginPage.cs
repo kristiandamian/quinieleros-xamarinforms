@@ -6,7 +6,7 @@ namespace quinieleros
 {
 	public class LoginPage : ContentPage
 	{
-		public models.TipoLogin Tipo {
+		public Models.TipoLogin Tipo {
 			get;
 			set;
 		}

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.golemsoft.qui">
-  <uses-sdk android:minSdkVersion="15" />
-  <application android:label="quinieleros" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="quinieleros.Droid" android:name="md56e2a7b3b439a9cde3ad111a83c16d851.MainActivity">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+  <application android:label="quinieleros" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="quinieleros.Droid" android:theme="@android:style/Theme.Holo.Light" android:name="md56e2a7b3b439a9cde3ad111a83c16d851.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

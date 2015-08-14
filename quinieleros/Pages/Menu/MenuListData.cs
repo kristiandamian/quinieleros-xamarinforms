@@ -10,25 +10,25 @@ namespace quinieleros
 		{
 			this.Add (new MenuItem () { 
 				Title = "Resultados", 
-				IconSource = "contracts.png", 
+				IconSource = "resultados.png", 
 				TargetType = typeof(ResultadosPage)
 			});
 
 			this.Add (new MenuItem () { 
 				Title = "Crear grupo", 
-				IconSource = "Lead.png", 
+				IconSource = "grupo.png", 
 				TargetType = typeof(CrearGrupoPage)
 			});
 
 			this.Add (new MenuItem () { 
 				Title = "Ver grupo", 
-				IconSource = "Accounts.png", 
+				IconSource = "verGrupo.png", 
 				TargetType = typeof(VerGrupoPage)
 			});
 
 			this.Add (new MenuItem () {
 				Title = "Estadisticas",
-				IconSource = "Opportunity.png",
+				IconSource = "estadisticas.png",
 				TargetType = typeof(EstadisticasPage)
 			});
 		}

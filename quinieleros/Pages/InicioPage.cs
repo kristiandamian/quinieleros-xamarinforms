@@ -30,14 +30,14 @@ namespace quinieleros
 		void BtnGoogle_Clicked (object sender, EventArgs e)
 		{
 			var log = new LoginPage ();
-			log.Tipo = quinieleros.models.TipoLogin.Google;
+			log.Tipo = quinieleros.Models.TipoLogin.Google;
 			Navigation.PushModalAsync(log);
 		}
 
 		void BtnFacebook_Clicked (object sender, EventArgs e)
 		{
 			var log = new LoginPage ();
-			log.Tipo = quinieleros.models.TipoLogin.Facebook;
+			log.Tipo = quinieleros.Models.TipoLogin.Facebook;
 			Navigation.PushModalAsync(log);
 		}
 	}

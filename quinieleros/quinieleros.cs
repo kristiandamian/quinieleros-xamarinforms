@@ -6,20 +6,12 @@ namespace quinieleros
 {
 	public class App : Application
 	{
-		Menu _NavPage;
 
 		public App ()
 		{
-			
+			MainPage = new Menu ();
 		}
-		public Page GetMainPage ()
-		{
-			var menu = new Menu();
 
-			_NavPage = new Menu();
-
-			return _NavPage;
-		}
 		protected override void OnStart ()
 		{
 			// Handle when your app starts

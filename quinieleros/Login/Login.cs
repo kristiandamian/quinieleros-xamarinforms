@@ -38,13 +38,13 @@ namespace quinieleros
 			}
 		}
 
-		public static OAuthSettings OAuth(models.TipoLogin tipo){
+		public static OAuthSettings OAuth(Models.TipoLogin tipo){
 			OAuthSettings _tipoLogin=null;
 			switch (tipo) {
-			case quinieleros.models.TipoLogin.Facebook:
+			case quinieleros.Models.TipoLogin.Facebook:
 				_tipoLogin = Facebook.OAuth2 ();
 				break;
-			case quinieleros.models.TipoLogin.Google:
+			case quinieleros.Models.TipoLogin.Google:
 				_tipoLogin = Google.OAuth2 ();
 				break;
 			default:
